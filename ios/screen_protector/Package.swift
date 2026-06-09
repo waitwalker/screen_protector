@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "screen_protector",
     platforms: [
-        .iOS(.v15)
+        .iOS(.v12)
     ],
     products: [
         .library(name: "screen-protector", targets: ["screen_protector"])
